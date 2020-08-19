@@ -19,7 +19,7 @@ A mappába ahol van a kód, és a chromedriver.exe, ott nyiss egy cmd-t és írd
  - py main.py
  
 ## Két karaker közötti idő változtatása
-
+```python
   while not started:
     try:
         for letter in txt:
@@ -28,4 +28,4 @@ A mappába ahol van a kód, és a chromedriver.exe, ott nyiss egy cmd-t és írd
         started = True
     except:
          pass
-    
+```
