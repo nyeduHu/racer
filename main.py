@@ -24,9 +24,10 @@ while not started:
     try:
         for letter in txt:
             driver.find_element_by_class_name('txtInput').send_keys(letter)
-            sleep(0.05)
+            sleep(0.01)
         started = True
     except:
          pass
     
 print('\n> Kész!')
+driver.quit()
