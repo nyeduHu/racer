@@ -7,17 +7,17 @@ Minden itt van! :))
 Töltsd le a Python legújabb verzióját! (https://www.python.org/)
 
 Ezek után:
-
- - pip install selenium
-
+```
+ pip install selenium
+```
 És készen is vagy!
 
 ## Futtatás
 
 A mappába ahol van a kód, és a chromedriver.exe, ott nyiss egy cmd-t és írd be az alábbiakat:
-
- - py main.py
- 
+```
+ py main.py
+```
 ## Két karaker közötti idő változtatása
 ```python
   while not started:
